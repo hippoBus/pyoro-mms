@@ -1,0 +1,11 @@
+# Don't include .DS_STORE, prevent clutter
+.DS_Store
+
+# Ignore any of the backup files zip files from KiCad
+*-backups
+
+# Including .lck files lead to loading issues in KiCad for other users
+*.lck
+
+# Don't include the Debug Directory from cubeIDE
+Debug
