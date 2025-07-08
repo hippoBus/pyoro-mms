@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SFH_4545")(type "KiCad")(uri "${KIPRJMOD}/componentLib/SFH_4545/SFH_4545.kicad_sym")(options "")(descr ""))
+  (lib (name "TEFT4300")(type "KiCad")(uri "${KIPRJMOD}/componentLib/TEFT4300/TEFT4300.kicad_sym")(options "")(descr ""))
+  (lib (name "CONN_BM06B-SRSS-TB_JST")(type "KiCad")(uri "${KIPRJMOD}/componentLib/BM06B_SRSS_TB_LF__SN_/CONN_BM06B-SRSS-TB_JST.kicad_sym")(options "")(descr ""))
+  (lib (name "1655")(type "KiCad")(uri "${KIPRJMOD}/componentLib/1655/1655.kicad_sym")(options "")(descr ""))
+  (lib (name "SLW-105558-2A-N-D")(type "KiCad")(uri "${KIPRJMOD}/componentLib/SLW_105558_2A_N_D/SLW-105558-2A-N-D.kicad_sym")(options "")(descr ""))
+)
