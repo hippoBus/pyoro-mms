@@ -59,12 +59,20 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ML_ENC_B_Pin GPIO_PIN_0
+#define ML_ENC_B_GPIO_Port GPIOA
+#define ML_ENC_A_Pin GPIO_PIN_1
+#define ML_ENC_A_GPIO_Port GPIOA
 #define MR_PWM_Pin GPIO_PIN_2
 #define MR_PWM_GPIO_Port GPIOA
 #define ML_PWM_Pin GPIO_PIN_3
 #define ML_PWM_GPIO_Port GPIOA
 #define SPI1_CS_Pin GPIO_PIN_7
 #define SPI1_CS_GPIO_Port GPIOA
+#define MR_ENC_A_Pin GPIO_PIN_10
+#define MR_ENC_A_GPIO_Port GPIOB
+#define MR_ENC_B_Pin GPIO_PIN_15
+#define MR_ENC_B_GPIO_Port GPIOB
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14

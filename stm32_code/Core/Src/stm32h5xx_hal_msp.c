@@ -109,7 +109,7 @@ void HAL_LPTIM_MspInit(LPTIM_HandleTypeDef* hlptim)
     PA0     ------> LPTIM1_IN2
     PA1     ------> LPTIM1_IN1
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1;
+    GPIO_InitStruct.Pin = ML_ENC_B_Pin|ML_ENC_A_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -143,7 +143,7 @@ void HAL_LPTIM_MspInit(LPTIM_HandleTypeDef* hlptim)
     PB10     ------> LPTIM2_IN1
     PB15     ------> LPTIM2_IN2
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_10|GPIO_PIN_15;
+    GPIO_InitStruct.Pin = MR_ENC_A_Pin|MR_ENC_B_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -177,7 +177,7 @@ void HAL_LPTIM_MspDeInit(LPTIM_HandleTypeDef* hlptim)
     PA0     ------> LPTIM1_IN2
     PA1     ------> LPTIM1_IN1
     */
-    HAL_GPIO_DeInit(GPIOA, GPIO_PIN_0|GPIO_PIN_1);
+    HAL_GPIO_DeInit(GPIOA, ML_ENC_B_Pin|ML_ENC_A_Pin);
 
     /* USER CODE BEGIN LPTIM1_MspDeInit 1 */
 
@@ -195,7 +195,7 @@ void HAL_LPTIM_MspDeInit(LPTIM_HandleTypeDef* hlptim)
     PB10     ------> LPTIM2_IN1
     PB15     ------> LPTIM2_IN2
     */
-    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_10|GPIO_PIN_15);
+    HAL_GPIO_DeInit(GPIOB, MR_ENC_A_Pin|MR_ENC_B_Pin);
 
     /* USER CODE BEGIN LPTIM2_MspDeInit 1 */
 
