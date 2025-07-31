@@ -59,6 +59,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define EMIT_FL_Pin GPIO_PIN_14
+#define EMIT_FL_GPIO_Port GPIOC
+#define EMIT_BL_Pin GPIO_PIN_15
+#define EMIT_BL_GPIO_Port GPIOC
+#define EMIT_FR_Pin GPIO_PIN_0
+#define EMIT_FR_GPIO_Port GPIOH
+#define EMIT_BR_Pin GPIO_PIN_1
+#define EMIT_BR_GPIO_Port GPIOH
 #define ML_ENC_B_Pin GPIO_PIN_0
 #define ML_ENC_B_GPIO_Port GPIOA
 #define ML_ENC_A_Pin GPIO_PIN_1
