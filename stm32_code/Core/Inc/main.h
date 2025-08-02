@@ -89,6 +89,8 @@ void Error_Handler(void);
 #define MR_ENC_B_GPIO_Port GPIOB
 #define SPI1_CS_Pin GPIO_PIN_10
 #define SPI1_CS_GPIO_Port GPIOA
+#define BUZZER_PWM_Pin GPIO_PIN_11
+#define BUZZER_PWM_GPIO_Port GPIOA
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
