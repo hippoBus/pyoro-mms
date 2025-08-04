@@ -5,4 +5,5 @@
   (lib (name "CONN_BM06B-SRSS-TB_JST")(type "KiCad")(uri "${KIPRJMOD}/componentLib/BM06B_SRSS_TB_LF__SN_/CONN_BM06B-SRSS-TB_JST.kicad_sym")(options "")(descr ""))
   (lib (name "1655")(type "KiCad")(uri "${KIPRJMOD}/componentLib/1655/1655.kicad_sym")(options "")(descr ""))
   (lib (name "SLW-105558-2A-N-D")(type "KiCad")(uri "${KIPRJMOD}/componentLib/SLW_105558_2A_N_D/SLW-105558-2A-N-D.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-08-04_04-37-33")(type "KiCad")(uri "${KIPRJMOD}/componentLib/AP2210N_3_3TRG1/2025-08-04_04-37-33.kicad_sym")(options "")(descr ""))
 )
