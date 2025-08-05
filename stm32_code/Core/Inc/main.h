@@ -87,6 +87,8 @@ void Error_Handler(void);
 #define MR_ENC_A_GPIO_Port GPIOB
 #define MR_ENC_B_Pin GPIO_PIN_15
 #define MR_ENC_B_GPIO_Port GPIOB
+#define NEOPXL_PWM_Pin GPIO_PIN_9
+#define NEOPXL_PWM_GPIO_Port GPIOA
 #define SPI1_CS_Pin GPIO_PIN_10
 #define SPI1_CS_GPIO_Port GPIOA
 #define BUZZER_PWM_Pin GPIO_PIN_11
