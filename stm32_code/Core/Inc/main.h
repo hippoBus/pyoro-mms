@@ -85,6 +85,12 @@ void Error_Handler(void);
 #define RECIV_BR_GPIO_Port GPIOB
 #define MR_ENC_A_Pin GPIO_PIN_10
 #define MR_ENC_A_GPIO_Port GPIOB
+#define LED3_Pin GPIO_PIN_12
+#define LED3_GPIO_Port GPIOB
+#define LED2_Pin GPIO_PIN_13
+#define LED2_GPIO_Port GPIOB
+#define LED1_Pin GPIO_PIN_14
+#define LED1_GPIO_Port GPIOB
 #define MR_ENC_B_Pin GPIO_PIN_15
 #define MR_ENC_B_GPIO_Port GPIOB
 #define NEOPXL_PWM_Pin GPIO_PIN_9
