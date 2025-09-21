@@ -8098,12 +8098,6 @@
 		(uuid "1de4c968-e030-40bc-b9ea-0d46b9259bb7")
 	)
 	(junction
-		(at 97.79 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "247569d4-0a29-4284-bdf5-6cf8e78862c7")
-	)
-	(junction
 		(at 185.42 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8126,12 +8120,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f12db3e-91cb-496d-80b7-fba5466690b9")
-	)
-	(junction
-		(at 97.79 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35cc2d67-0ba1-4e4c-9762-648da95baef5")
 	)
 	(junction
 		(at 57.15 250.19)
@@ -8306,6 +8294,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88500a3a-94ed-4e96-b4ef-589dc6f262b6")
+	)
+	(junction
+		(at 44.45 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "886a77b4-1b68-4f94-97de-c9d39e9ba3e3")
 	)
 	(junction
 		(at 360.68 22.86)
@@ -9439,7 +9433,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 88.9) (xy 104.14 88.9)
+			(xy 97.79 77.47) (xy 104.14 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9769,7 +9763,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 88.9) (xy 104.14 90.17)
+			(xy 104.14 77.47) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9839,16 +9833,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 163.83) (xy 44.45 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4633b26b-d74a-42a8-9472-8337ac191314")
-	)
-	(wire
-		(pts
 			(xy 29.21 110.49) (xy 21.59 110.49)
 		)
 		(stroke
@@ -9866,6 +9850,16 @@
 			(type default)
 		)
 		(uuid "47043e9a-d7e0-4f94-96d3-ad329888f2c0")
+	)
+	(wire
+		(pts
+			(xy 97.79 85.09) (xy 97.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474334f6-3727-49bf-a6d4-d4ee623cb708")
 	)
 	(wire
 		(pts
@@ -10639,6 +10633,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 166.37) (xy 68.58 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732d4727-4022-42c0-a161-2fad27b4b220")
+	)
+	(wire
+		(pts
 			(xy 388.62 53.34) (xy 391.16 53.34)
 		)
 		(stroke
@@ -10819,7 +10823,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 104.14 95.25)
+			(xy 104.14 85.09) (xy 104.14 83.82)
 		)
 		(stroke
 			(width 0)
@@ -11719,7 +11723,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 86.36) (xy 97.79 88.9)
+			(xy 97.79 73.66) (xy 97.79 77.47)
 		)
 		(stroke
 			(width 0)
@@ -11749,7 +11753,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 163.83) (xy 44.45 161.29)
+			(xy 44.45 161.29) (xy 44.45 166.37)
 		)
 		(stroke
 			(width 0)
@@ -11899,7 +11903,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 166.37) (xy 68.58 166.37)
+			(xy 39.37 166.37) (xy 44.45 166.37)
 		)
 		(stroke
 			(width 0)
@@ -12169,7 +12173,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 96.52) (xy 104.14 96.52)
+			(xy 97.79 85.09) (xy 104.14 85.09)
 		)
 		(stroke
 			(width 0)
@@ -15984,7 +15988,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 97.79 86.36 0)
+		(at 97.79 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15993,7 +15997,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b67593c-0a42-4c7f-92b6-3f69965b5c7c")
 		(property "Reference" "#PWR028"
-			(at 97.79 90.17 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16002,7 +16006,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 97.79 81.28 0)
+			(at 97.79 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16010,7 +16014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 86.36 0)
+			(at 97.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16019,7 +16023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 86.36 0)
+			(at 97.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16028,7 +16032,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 97.79 86.36 0)
+			(at 97.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18073,7 +18077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "1k"
 			(at 100.33 93.9799 0)
 			(effects
 				(font
@@ -21310,7 +21314,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 106.68 92.71 0)
+		(at 106.68 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21319,7 +21323,7 @@
 		(fields_autoplaced yes)
 		(uuid "93bd56d0-3fee-4067-8ef4-f6630a0d2a9e")
 		(property "Reference" "BZ1"
-			(at 110.49 91.4399 0)
+			(at 110.49 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21328,7 +21332,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 110.49 93.9799 0)
+			(at 110.49 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21337,7 +21341,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 106.045 90.17 90)
+			(at 106.045 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21346,7 +21350,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.soberton.com/wp-content/uploads/2022/03/PT-1306T.pdf"
-			(at 106.045 90.17 90)
+			(at 106.045 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21355,7 +21359,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 106.68 92.71 0)
+			(at 106.68 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
