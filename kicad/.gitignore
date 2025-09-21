@@ -1,2 +1,3 @@
 # .gitignore from root directory unable to ignore these file(s)
 fp-info-cache
+*.bak
