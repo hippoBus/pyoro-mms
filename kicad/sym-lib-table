@@ -7,4 +7,6 @@
   (lib (name "SLW-105558-2A-N-D")(type "KiCad")(uri "${KIPRJMOD}/componentLib/SLW_105558_2A_N_D/SLW-105558-2A-N-D.kicad_sym")(options "")(descr ""))
   (lib (name "2025-08-04_04-37-33")(type "KiCad")(uri "${KIPRJMOD}/componentLib/AP2210N_3_3TRG1/2025-08-04_04-37-33.kicad_sym")(options "")(descr ""))
   (lib (name "FSP201")(type "KiCad")(uri "${KIPRJMOD}/componentLib/FSP201/FSP201.kicad_sym")(options "")(descr ""))
+  (lib (name "UCC27524DSDR")(type "KiCad")(uri "${KIPRJMOD}/componentLib/FSP201/UCC27524DSDR.kicad_sym")(options "")(descr ""))
+  (lib (name "ZXMHC3F381N8TC")(type "KiCad")(uri "${KIPRJMOD}/componentLib/ZXMHC3F381N8TC/KiCADv6/2025-11-21_23-13-50.kicad_sym")(options "")(descr ""))
 )
