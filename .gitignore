@@ -49,6 +49,7 @@ espressif-kicad-addon.zip
 *-backups
 # .lck files lead to loading errors in KiCad for multiple users
 *.lck
+\#auto_saved_files\#
 
 # === STM32CubeIDE Files ===
 

@@ -103,14 +103,6 @@ void Error_Handler(void);
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
 #define SWCLK_GPIO_Port GPIOA
-#define ML_BWD_Pin GPIO_PIN_4
-#define ML_BWD_GPIO_Port GPIOB
-#define MR_FWD_Pin GPIO_PIN_5
-#define MR_FWD_GPIO_Port GPIOB
-#define MR_BWD_Pin GPIO_PIN_6
-#define MR_BWD_GPIO_Port GPIOB
-#define ML_FWD_Pin GPIO_PIN_8
-#define ML_FWD_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
