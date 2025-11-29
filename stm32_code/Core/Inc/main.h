@@ -59,6 +59,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define RW_LED_Pin GPIO_PIN_13
+#define RW_LED_GPIO_Port GPIOC
 #define EMIT_FL_Pin GPIO_PIN_14
 #define EMIT_FL_GPIO_Port GPIOC
 #define EMIT_BL_Pin GPIO_PIN_15
@@ -85,12 +87,12 @@ void Error_Handler(void);
 #define ML_NPWM_GPIO_Port GPIOB
 #define MR_ENC_A_Pin GPIO_PIN_10
 #define MR_ENC_A_GPIO_Port GPIOB
-#define LED3_Pin GPIO_PIN_12
-#define LED3_GPIO_Port GPIOB
-#define LED2_Pin GPIO_PIN_13
-#define LED2_GPIO_Port GPIOB
-#define LED1_Pin GPIO_PIN_14
-#define LED1_GPIO_Port GPIOB
+#define RIGHT_LED_Pin GPIO_PIN_12
+#define RIGHT_LED_GPIO_Port GPIOB
+#define LEFT_LED_Pin GPIO_PIN_13
+#define LEFT_LED_GPIO_Port GPIOB
+#define FRONT_LED_Pin GPIO_PIN_14
+#define FRONT_LED_GPIO_Port GPIOB
 #define MR_ENC_B_Pin GPIO_PIN_15
 #define MR_ENC_B_GPIO_Port GPIOB
 #define MR_NPWM_Pin GPIO_PIN_8
@@ -103,10 +105,20 @@ void Error_Handler(void);
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
 #define SWCLK_GPIO_Port GPIOA
+#define BIT3_LED_Pin GPIO_PIN_15
+#define BIT3_LED_GPIO_Port GPIOA
+#define BIT2_LED_Pin GPIO_PIN_3
+#define BIT2_LED_GPIO_Port GPIOB
+#define BIT1_LED_Pin GPIO_PIN_4
+#define BIT1_LED_GPIO_Port GPIOB
 #define ML_ENC_A_Pin GPIO_PIN_5
 #define ML_ENC_A_GPIO_Port GPIOB
 #define ML_PWM_Pin GPIO_PIN_6
 #define ML_PWM_GPIO_Port GPIOB
+#define BIT0_LED_Pin GPIO_PIN_7
+#define BIT0_LED_GPIO_Port GPIOB
+#define BACK_LED_Pin GPIO_PIN_8
+#define BACK_LED_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
