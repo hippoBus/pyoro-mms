@@ -69,12 +69,12 @@ void Error_Handler(void);
 #define EMIT_BR_GPIO_Port GPIOH
 #define ML_ENC_B_Pin GPIO_PIN_0
 #define ML_ENC_B_GPIO_Port GPIOA
-#define ML_ENC_A_Pin GPIO_PIN_1
-#define ML_ENC_A_GPIO_Port GPIOA
-#define MR_PWM_Pin GPIO_PIN_2
-#define MR_PWM_GPIO_Port GPIOA
-#define ML_PWM_Pin GPIO_PIN_3
-#define ML_PWM_GPIO_Port GPIOA
+#define MR_PWMB_Pin GPIO_PIN_1
+#define MR_PWMB_GPIO_Port GPIOA
+#define MR_PWMA_Pin GPIO_PIN_2
+#define MR_PWMA_GPIO_Port GPIOA
+#define ML_PWMA_Pin GPIO_PIN_3
+#define ML_PWMA_GPIO_Port GPIOA
 #define RECIV_FL_Pin GPIO_PIN_5
 #define RECIV_FL_GPIO_Port GPIOA
 #define RECIV_BL_Pin GPIO_PIN_7
@@ -83,6 +83,8 @@ void Error_Handler(void);
 #define RECIV_FR_GPIO_Port GPIOB
 #define RECIV_BR_Pin GPIO_PIN_1
 #define RECIV_BR_GPIO_Port GPIOB
+#define ML_PWMB_Pin GPIO_PIN_2
+#define ML_PWMB_GPIO_Port GPIOB
 #define MR_ENC_A_Pin GPIO_PIN_10
 #define MR_ENC_A_GPIO_Port GPIOB
 #define LED3_Pin GPIO_PIN_12
@@ -103,6 +105,8 @@ void Error_Handler(void);
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
 #define SWCLK_GPIO_Port GPIOA
+#define ML_ENC_A_Pin GPIO_PIN_5
+#define ML_ENC_A_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
