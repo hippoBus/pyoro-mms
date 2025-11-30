@@ -18772,7 +18772,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "1k"
 			(at 196.85 200.66 90)
 			(effects
 				(font
@@ -20095,7 +20095,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "1k"
 			(at 138.43 200.66 90)
 			(effects
 				(font
@@ -21664,7 +21664,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "1k"
 			(at 91.44 121.92 90)
 			(effects
 				(font
@@ -24466,7 +24466,7 @@
 				)
 			)
 		)
-		(property "Value" "2mF"
+		(property "Value" "100uF"
 			(at 95.25 250.19 90)
 			(effects
 				(font
@@ -25263,7 +25263,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "7"
+		(property "Value" "33"
 			(at 106.68 264.1599 0)
 			(effects
 				(font
@@ -27589,7 +27589,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "1k"
 			(at 167.64 200.66 90)
 			(effects
 				(font
@@ -27657,7 +27657,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "1k"
 			(at 226.06 200.66 90)
 			(effects
 				(font
