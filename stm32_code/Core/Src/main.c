@@ -455,7 +455,15 @@ static void MX_TIM1_Init(void)
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   sConfigOC.OCIdleState = TIM_OCIDLESTATE_RESET;
   sConfigOC.OCNIdleState = TIM_OCNIDLESTATE_RESET;
+  if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
   if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_ConfigChannel(&htim1, &sConfigOC, TIM_CHANNEL_3) != HAL_OK)
   {
     Error_Handler();
   }
@@ -678,11 +686,11 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(GPIOH, EMIT_FR_Pin|EMIT_BR_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, SPI1_CS_Pin|BIT3_LED_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, SPI1_CS_Pin|RIGHT_LED_Pin|LEFT_LED_Pin|FRONT_LED_Pin
+                          |BIT2_LED_Pin|BIT1_LED_Pin|BIT0_LED_Pin|BACK_LED_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, RIGHT_LED_Pin|LEFT_LED_Pin|FRONT_LED_Pin|BIT2_LED_Pin
-                          |BIT1_LED_Pin|BIT0_LED_Pin|BACK_LED_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(BIT3_LED_GPIO_Port, BIT3_LED_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pins : RW_LED_Pin EMIT_FL_Pin EMIT_BL_Pin */
   GPIO_InitStruct.Pin = RW_LED_Pin|EMIT_FL_Pin|EMIT_BL_Pin;
@@ -698,21 +706,21 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOH, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : SPI1_CS_Pin BIT3_LED_Pin */
-  GPIO_InitStruct.Pin = SPI1_CS_Pin|BIT3_LED_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : RIGHT_LED_Pin LEFT_LED_Pin FRONT_LED_Pin BIT2_LED_Pin
-                           BIT1_LED_Pin BIT0_LED_Pin BACK_LED_Pin */
-  GPIO_InitStruct.Pin = RIGHT_LED_Pin|LEFT_LED_Pin|FRONT_LED_Pin|BIT2_LED_Pin
-                          |BIT1_LED_Pin|BIT0_LED_Pin|BACK_LED_Pin;
+  /*Configure GPIO pins : SPI1_CS_Pin RIGHT_LED_Pin LEFT_LED_Pin FRONT_LED_Pin
+                           BIT2_LED_Pin BIT1_LED_Pin BIT0_LED_Pin BACK_LED_Pin */
+  GPIO_InitStruct.Pin = SPI1_CS_Pin|RIGHT_LED_Pin|LEFT_LED_Pin|FRONT_LED_Pin
+                          |BIT2_LED_Pin|BIT1_LED_Pin|BIT0_LED_Pin|BACK_LED_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : BIT3_LED_Pin */
+  GPIO_InitStruct.Pin = BIT3_LED_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(BIT3_LED_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 

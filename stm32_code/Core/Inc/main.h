@@ -71,8 +71,8 @@ void Error_Handler(void);
 #define EMIT_BR_GPIO_Port GPIOH
 #define ML_ENC_B_Pin GPIO_PIN_0
 #define ML_ENC_B_GPIO_Port GPIOA
-#define SPI1_CS_Pin GPIO_PIN_1
-#define SPI1_CS_GPIO_Port GPIOA
+#define ML_PWMB_Pin GPIO_PIN_1
+#define ML_PWMB_GPIO_Port GPIOA
 #define NEOPXL_PWM_Pin GPIO_PIN_3
 #define NEOPXL_PWM_GPIO_Port GPIOA
 #define RECIV_FL_Pin GPIO_PIN_5
@@ -83,8 +83,8 @@ void Error_Handler(void);
 #define RECIV_FR_GPIO_Port GPIOB
 #define RECIV_BR_Pin GPIO_PIN_1
 #define RECIV_BR_GPIO_Port GPIOB
-#define ML_NPWM_Pin GPIO_PIN_2
-#define ML_NPWM_GPIO_Port GPIOB
+#define SPI1_CS_Pin GPIO_PIN_2
+#define SPI1_CS_GPIO_Port GPIOB
 #define MR_ENC_A_Pin GPIO_PIN_10
 #define MR_ENC_A_GPIO_Port GPIOB
 #define RIGHT_LED_Pin GPIO_PIN_12
@@ -95,10 +95,10 @@ void Error_Handler(void);
 #define FRONT_LED_GPIO_Port GPIOB
 #define MR_ENC_B_Pin GPIO_PIN_15
 #define MR_ENC_B_GPIO_Port GPIOB
-#define MR_NPWM_Pin GPIO_PIN_8
-#define MR_NPWM_GPIO_Port GPIOA
-#define MR_PWM_Pin GPIO_PIN_11
-#define MR_PWM_GPIO_Port GPIOA
+#define MR_PWMB_Pin GPIO_PIN_8
+#define MR_PWMB_GPIO_Port GPIOA
+#define MR_PWMA_Pin GPIO_PIN_11
+#define MR_PWMA_GPIO_Port GPIOA
 #define BUZZER_PWM_Pin GPIO_PIN_12
 #define BUZZER_PWM_GPIO_Port GPIOA
 #define SWDIO_Pin GPIO_PIN_13
@@ -113,8 +113,8 @@ void Error_Handler(void);
 #define BIT1_LED_GPIO_Port GPIOB
 #define ML_ENC_A_Pin GPIO_PIN_5
 #define ML_ENC_A_GPIO_Port GPIOB
-#define ML_PWM_Pin GPIO_PIN_6
-#define ML_PWM_GPIO_Port GPIOB
+#define ML_PWMA_Pin GPIO_PIN_6
+#define ML_PWMA_GPIO_Port GPIOB
 #define BIT0_LED_Pin GPIO_PIN_7
 #define BIT0_LED_GPIO_Port GPIOB
 #define BACK_LED_Pin GPIO_PIN_8

@@ -439,41 +439,34 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* htim)
     /* USER CODE BEGIN TIM1_MspPostInit 0 */
 
     /* USER CODE END TIM1_MspPostInit 0 */
-    __HAL_RCC_GPIOB_CLK_ENABLE();
     __HAL_RCC_GPIOA_CLK_ENABLE();
+    __HAL_RCC_GPIOB_CLK_ENABLE();
     /**TIM1 GPIO Configuration
-    PB2     ------> TIM1_CH2N
-    PA8     ------> TIM1_CH4N
+    PA1     ------> TIM1_CH3
+    PA8     ------> TIM1_CH1
     PA11     ------> TIM1_CH4
     PB6     ------> TIM1_CH2
     */
-    GPIO_InitStruct.Pin = ML_NPWM_Pin;
-    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-    GPIO_InitStruct.Alternate = GPIO_AF1_TIM1;
-    HAL_GPIO_Init(ML_NPWM_GPIO_Port, &GPIO_InitStruct);
-
-    GPIO_InitStruct.Pin = MR_NPWM_Pin;
+    GPIO_InitStruct.Pin = ML_PWMB_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.Alternate = GPIO_AF14_TIM1;
-    HAL_GPIO_Init(MR_NPWM_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(ML_PWMB_GPIO_Port, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = MR_PWM_Pin;
+    GPIO_InitStruct.Pin = MR_PWMB_Pin|MR_PWMA_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.Alternate = GPIO_AF1_TIM1;
-    HAL_GPIO_Init(MR_PWM_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = ML_PWM_Pin;
+    GPIO_InitStruct.Pin = ML_PWMA_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
     GPIO_InitStruct.Alternate = GPIO_AF14_TIM1;
-    HAL_GPIO_Init(ML_PWM_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(ML_PWMA_GPIO_Port, &GPIO_InitStruct);
 
     /* USER CODE BEGIN TIM1_MspPostInit 1 */
 
