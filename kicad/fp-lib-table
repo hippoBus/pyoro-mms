@@ -6,4 +6,5 @@
   (lib (name "SLW_105558_2A_N_D")(type "KiCad")(uri "${KIPRJMOD}/componentLib/SLW_105558_2A_N_D")(options "")(descr ""))
   (lib (name "AP2210N_3_3TRG1")(type "KiCad")(uri "${KIPRJMOD}/componentLib/AP2210N_3_3TRG1")(options "")(descr ""))
   (lib (name "silkscreen")(type "KiCad")(uri "${KIPRJMOD}/componentLib/silkscreen")(options "")(descr ""))
+  (lib (name "UCC27524DSDR")(type "KiCad")(uri "${KIPRJMOD}/componentLib/UCC27524DSDR")(options "")(descr ""))
 )
