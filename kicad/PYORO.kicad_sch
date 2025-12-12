@@ -13729,6 +13729,28 @@
 		)
 		(uuid "f10621bf-945a-45cc-ad0e-6a02a6ef53c7")
 	)
+	(label "5V_REG_IN"
+		(at 55.88 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48bed736-744e-413b-a7c2-9e23b98fc384")
+	)
+	(label "BATT_PIN"
+		(at 44.45 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cc70f31-8aa7-417b-b630-72932d94e3cd")
+	)
 	(global_label "MR_1"
 		(shape output)
 		(at 283.21 212.09 180)
