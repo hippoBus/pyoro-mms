@@ -13729,7 +13729,7 @@
 		)
 		(uuid "f10621bf-945a-45cc-ad0e-6a02a6ef53c7")
 	)
-	(label "5V_REG_IN"
+	(label "REG5V_IN"
 		(at 55.88 153.67 180)
 		(fields_autoplaced yes)
 		(effects

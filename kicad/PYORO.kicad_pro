@@ -552,6 +552,14 @@
       {
         "netclass": "AGND",
         "pattern": "GNDA"
+      },
+      {
+        "netclass": "Battery",
+        "pattern": "/BATT*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/REG*"
       }
     ]
   },
