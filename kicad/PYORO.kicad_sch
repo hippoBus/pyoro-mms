@@ -4456,377 +4456,6 @@
 				)
 			)
 		)
-		(symbol "SFH_4545:SFH_4545"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -3.556 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SFH_4545"
-				(at -3.556 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SFH_4545:DIO_SFH_4545"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "1.5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "OSRAM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SFH_4545_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.524) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.524) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.1176 3.683) (xy -0.2286 4.1656)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9398 3.6068) (xy -0.7112 3.7592)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5588 3.2004) (xy -1.1176 3.683)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5588 3.2004) (xy -0.5334 3.937)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 3.937) (xy -0.6604 3.937)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.2286 4.1656) (xy -2.0066 2.1336)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.2286 4.1656) (xy -0.5588 3.2004)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.127 3.5814) (xy 1.016 4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3048 3.5052) (xy 0.5334 3.6576)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.6858 3.0988) (xy 0.127 3.5814)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.6858 3.0988) (xy 0.7112 3.8354)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.7112 3.8354) (xy 0.5842 3.8354)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 4.064) (xy -0.762 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 4.064) (xy 0.6858 3.0988)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "IR"
-					(at 1.016 2.032 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SLW-105558-2A-N-D:SLW-105558-2A-N-D"
 			(pin_names
 				(offset 1.016)
@@ -6083,343 +5712,6 @@
 				)
 			)
 		)
-		(symbol "TEFT4300:TEFT4300"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -10.1556 5.0822 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TEFT4300"
-				(at -10.1508 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "TEFT4300:XDCR_TEFT4300"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Vishay Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "Radial Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TEFT4300_0_0"
-				(polyline
-					(pts
-						(xy -4.953 0.635) (xy -3.175 -1.143)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.953 2.54) (xy -3.175 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 -0.762) (xy -3.556 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 1.143) (xy -3.556 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 0) (xy -3.175 -1.143)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.556 1.905) (xy -3.175 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.143) (xy -4.318 -0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0.762) (xy -4.318 1.143)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.635) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.635) (xy 0 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.905) (xy 0 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.286) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 -0.762) (xy -3.175 -1.143) (xy -3.556 0) (xy -4.318 -0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 1.143) (xy -3.175 0.762) (xy -3.556 1.905) (xy -4.318 1.143)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.286 -1.524) (xy 1.524 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "UCC27524DSDR:UCC27524DSDR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7103,6 +6395,167 @@
 				)
 			)
 		)
+		(symbol "bloo-rescue:IRL81A-LED-mouse_v2-rescue"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.508 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRL81A-LED-mouse_v2-rescue"
+				(at -1.016 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SideEmitter*Rectangular*W4.5mm*H1.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRL81A-LED-mouse_v2-rescue_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.175) (xy -0.127 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRL81A-LED-mouse_v2-rescue_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bloo-rescue:MountingHole-Mechanical-mouse_v2-rescue"
 			(pin_names
 				(offset 1.016)
@@ -7172,6 +6625,205 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+		)
+		(symbol "bloo-rescue:Q_Photo_NPN-Device-mouse_v2-rescue"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Photo_NPN-Device-mouse_v2-rescue"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Photo_NPN-Device-mouse_v2-rescue_0_1"
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_Photo_NPN-Device-mouse_v2-rescue_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -8793,7 +8445,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 160.02) (xy 237.49 163.83)
+			(xy 237.49 156.21) (xy 237.49 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8893,16 +8545,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 160.02) (xy 179.07 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "167eec58-5950-4d14-82ef-2245925b5de3")
-	)
-	(wire
-		(pts
 			(xy 369.57 173.99) (xy 372.11 173.99)
 		)
 		(stroke
@@ -8983,7 +8625,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 144.78) (xy 208.28 147.32)
+			(xy 208.28 144.78) (xy 208.28 148.59)
 		)
 		(stroke
 			(width 0)
@@ -9383,7 +9025,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 144.78) (xy 237.49 147.32)
+			(xy 237.49 144.78) (xy 237.49 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11323,7 +10965,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 160.02) (xy 208.28 163.83)
+			(xy 208.28 156.21) (xy 208.28 163.83)
 		)
 		(stroke
 			(width 0)
@@ -11590,6 +11232,26 @@
 			(type default)
 		)
 		(uuid "924885a8-a480-4406-a04a-e4ea95ddf2f5")
+	)
+	(wire
+		(pts
+			(xy 179.07 156.21) (xy 179.07 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92740387-483c-472d-b2b5-f176f55e8bbe")
+	)
+	(wire
+		(pts
+			(xy 179.07 144.78) (xy 179.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942ac9eb-a612-4167-a4eb-355178045a9e")
 	)
 	(wire
 		(pts
@@ -12713,7 +12375,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 158.75) (xy 149.86 163.83)
+			(xy 149.86 154.94) (xy 149.86 163.83)
 		)
 		(stroke
 			(width 0)
@@ -12803,7 +12465,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 144.78) (xy 149.86 146.05)
+			(xy 149.86 144.78) (xy 149.86 147.32)
 		)
 		(stroke
 			(width 0)
@@ -13180,16 +12842,6 @@
 			(type default)
 		)
 		(uuid "ee3d621d-139f-4f91-9c4e-6dc0475212bc")
-	)
-	(wire
-		(pts
-			(xy 179.07 144.78) (xy 179.07 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee9761e7-9aef-4d51-af02-97d68656fcc7")
 	)
 	(wire
 		(pts
@@ -13750,6 +13402,17 @@
 			(justify right bottom)
 		)
 		(uuid "8cc70f31-8aa7-417b-b630-72932d94e3cd")
+	)
+	(label "DRAIN_FL"
+		(at 149.86 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f64d8c71-3610-45cb-a96b-11110547162f")
 	)
 	(global_label "MR_1"
 		(shape output)
@@ -17712,107 +17375,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SFH_4545:SFH_4545")
-		(at 149.86 153.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17e307de-d55a-4c25-828a-9a8530283528")
-		(property "Reference" "D1"
-			(at 154.94 151.1686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SFH_4545"
-			(at 154.94 153.7086 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MM_Library:Emitter"
-			(at 149.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf"
-			(at 149.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.5"
-			(at 149.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OSRAM"
-			(at 149.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 149.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "9a68f828-3a4e-40b9-be65-01c2f0f46f1e")
-		)
-		(pin "C"
-			(uuid "3622f039-ac00-47ac-b009-f706cedb72bd")
-		)
-		(instances
-			(project ""
-				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_Dual_x2")
 		(at 353.06 138.43 270)
 		(unit 1)
@@ -18485,106 +18047,6 @@
 			(project "PYORO"
 				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
 					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TEFT4300:TEFT4300")
-		(at 201.93 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "242bb1f7-d330-4c67-9cdb-73dad7a41267")
-		(property "Reference" "Q4"
-			(at 208.28 218.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TEFT4300"
-			(at 208.28 220.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MM_Library:Emitter"
-			(at 201.93 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81549/teft4300.pdf"
-			(at 201.93 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 201.93 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 201.93 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay"
-			(at 201.93 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "00879676-7ca1-487f-be47-418b6299d9f1")
-		)
-		(pin "C"
-			(uuid "2979257b-f199-48aa-b553-e2bf983fc253")
-		)
-		(instances
-			(project "PYORO"
-				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -19681,6 +19143,76 @@
 			(project ""
 				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bloo-rescue:IRL81A-LED-mouse_v2-rescue")
+		(at 208.28 151.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ca8c22a-3e93-4c52-82d2-d806c138ea1f")
+		(property "Reference" "D8"
+			(at 212.1408 153.5684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SFH4545"
+			(at 212.1408 151.257 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MM_Library:Emitter"
+			(at 212.725 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 208.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "975815d8-f4c9-4242-aa10-5dd365414667")
+		)
+		(pin "2"
+			(uuid "a5453864-ada4-48d3-bba7-07b6120aa368")
+		)
+		(instances
+			(project "PYORO"
+				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -21246,17 +20778,17 @@
 		)
 	)
 	(symbol
-		(lib_id "TEFT4300:TEFT4300")
-		(at 132.08 219.71 0)
+		(lib_id "bloo-rescue:IRL81A-LED-mouse_v2-rescue")
+		(at 237.49 151.13 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a608780-1035-46d2-a28a-d0aff2f58ca9")
-		(property "Reference" "Q1"
-			(at 138.43 218.4399 0)
+		(uuid "5814fa69-9a6c-47f8-9b4d-02b4c47a71cf")
+		(property "Reference" "D9"
+			(at 241.3508 153.5684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21264,8 +20796,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TEFT4300"
-			(at 138.43 220.9799 0)
+		(property "Value" "SFH4545"
+			(at 241.3508 151.257 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21274,16 +20806,84 @@
 			)
 		)
 		(property "Footprint" "MM_Library:Emitter"
-			(at 132.08 219.71 0)
+			(at 241.935 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/81549/teft4300.pdf"
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 237.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f583d906-99a8-408d-8a4d-98f6e3817fed")
+		)
+		(pin "2"
+			(uuid "5ad1fd06-1c87-4284-9c94-ec138d97691d")
+		)
+		(instances
+			(project "PYORO"
+				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bloo-rescue:Q_Photo_NPN-Device-mouse_v2-rescue")
+		(at 132.08 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ab918b8-f9d7-49a6-b1bd-abef73daebfb")
+		(property "Reference" "Q1"
+			(at 136.906 221.2594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEFT4300"
+			(at 136.906 218.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MM_Library:Emitter"
+			(at 137.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 132.08 219.71 0)
 			(effects
 				(font
@@ -21301,44 +20901,14 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Vishay Semiconductor"
-			(at 132.08 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "cd9f14e9-3834-4dd1-b10b-c0735c2bc49c")
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 132.08 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay"
-			(at 132.08 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "76155eb9-d7d6-441b-8bc7-d8782120a691")
-		)
-		(pin "C"
-			(uuid "800ebbfc-7c4c-4c51-a184-360f22b786a3")
+		(pin "2"
+			(uuid "e47ec06d-5f44-4e5d-a57b-cc83827fe7ff")
 		)
 		(instances
-			(project ""
+			(project "PYORO"
 				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
 					(reference "Q1")
 					(unit 1)
@@ -21821,6 +21391,76 @@
 			(project "PYORO"
 				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bloo-rescue:IRL81A-LED-mouse_v2-rescue")
+		(at 149.86 149.86 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ca6b211-cbd8-43b6-8215-91c2a65c34b1")
+		(property "Reference" "D1"
+			(at 153.7208 152.2984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SFH4545"
+			(at 153.7208 149.987 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MM_Library:Emitter"
+			(at 154.305 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 149.86 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50ec9a1f-1d74-497f-9e7e-18de660649d8")
+		)
+		(pin "2"
+			(uuid "489aad02-b1ad-4a5c-be7e-8f70243472ac")
+		)
+		(instances
+			(project "PYORO"
+				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -22653,6 +22293,75 @@
 		)
 	)
 	(symbol
+		(lib_id "bloo-rescue:Q_Photo_NPN-Device-mouse_v2-rescue")
+		(at 179.07 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "813c607e-4995-409a-9e17-9cb4d39a125a")
+		(property "Reference" "Q3"
+			(at 183.896 221.2594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEFT4300"
+			(at 183.896 218.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MM_Library:Emitter"
+			(at 184.15 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caf61720-0b61-42df-b014-cc0b37c1aaad")
+		)
+		(pin "2"
+			(uuid "c6e90f37-1ac3-4e7d-888c-62fb1b10f672")
+		)
+		(instances
+			(project "PYORO"
+				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 234.95 168.91 0)
 		(unit 1)
@@ -23387,107 +23096,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SFH_4545:SFH_4545")
-		(at 179.07 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ce46d32-aaec-4303-ae35-2a32c16ac01b")
-		(property "Reference" "D7"
-			(at 184.15 152.4386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SFH_4545"
-			(at 184.15 154.9786 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MM_Library:Emitter"
-			(at 179.07 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf"
-			(at 179.07 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.5"
-			(at 179.07 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OSRAM"
-			(at 179.07 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 179.07 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "9bcce11c-ae49-4ead-8747-918900ae9c6a")
-		)
-		(pin "C"
-			(uuid "0c7aba3c-cc48-4cb6-bf02-477f651995ab")
-		)
-		(instances
-			(project "PYORO"
-				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 233.68 231.14 0)
 		(unit 1)
@@ -23667,107 +23275,6 @@
 			(project ""
 				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SFH_4545:SFH_4545")
-		(at 237.49 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91215887-b4bb-4721-b5cd-a5b0071b2c03")
-		(property "Reference" "D9"
-			(at 242.57 152.4386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SFH_4545"
-			(at 242.57 154.9786 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MM_Library:Emitter"
-			(at 237.49 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf"
-			(at 237.49 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.5"
-			(at 237.49 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OSRAM"
-			(at 237.49 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 237.49 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "668e2ab5-78e6-4b20-af74-766a6649f10e")
-		)
-		(pin "C"
-			(uuid "8e693dbf-0a0e-48d7-b49f-df4e681aa54a")
-		)
-		(instances
-			(project "PYORO"
-				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -24596,6 +24103,75 @@
 		)
 	)
 	(symbol
+		(lib_id "bloo-rescue:Q_Photo_NPN-Device-mouse_v2-rescue")
+		(at 201.93 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e1c502c-7227-4b46-9aa4-985bdf16106b")
+		(property "Reference" "Q4"
+			(at 206.756 221.2594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEFT4300"
+			(at 206.756 218.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MM_Library:Emitter"
+			(at 207.01 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc3d1fbb-8ff2-4503-9641-88de7ec545a2")
+		)
+		(pin "2"
+			(uuid "6fb8a997-dd85-4f01-a781-f5f0781c7736")
+		)
+		(instances
+			(project "PYORO"
+				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 228.6 87.63 0)
 		(unit 1)
@@ -24726,106 +24302,6 @@
 			(project ""
 				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TEFT4300:TEFT4300")
-		(at 179.07 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0b117f9-419a-4bf7-808b-66482952549f")
-		(property "Reference" "Q3"
-			(at 185.42 218.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TEFT4300"
-			(at 185.42 220.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MM_Library:Emitter"
-			(at 179.07 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81549/teft4300.pdf"
-			(at 179.07 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 179.07 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 179.07 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay"
-			(at 179.07 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "5cea4b27-2d2e-4410-b98c-131abd3c3627")
-		)
-		(pin "C"
-			(uuid "f2233ddb-22f5-407b-a825-0c928a2c9240")
-		)
-		(instances
-			(project "PYORO"
-				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -25417,6 +24893,75 @@
 		)
 	)
 	(symbol
+		(lib_id "bloo-rescue:Q_Photo_NPN-Device-mouse_v2-rescue")
+		(at 156.21 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8822285-d2aa-4d1b-81dc-dc919303d240")
+		(property "Reference" "Q2"
+			(at 161.036 221.2594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TEFT4300"
+			(at 161.036 218.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MM_Library:Emitter"
+			(at 161.29 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17d1bfdc-2438-4990-ab98-962dd413eb47")
+		)
+		(pin "2"
+			(uuid "7b61a3bf-fbc0-4d30-8f3a-bf67d076ddae")
+		)
+		(instances
+			(project "PYORO"
+				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 288.29 29.21 0)
 		(unit 1)
@@ -25684,6 +25229,76 @@
 			(project ""
 				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bloo-rescue:IRL81A-LED-mouse_v2-rescue")
+		(at 179.07 151.13 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abb3e9f4-ea19-4118-9c49-e2a72f41d5da")
+		(property "Reference" "D7"
+			(at 182.9308 153.5684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SFH4545"
+			(at 182.9308 151.257 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MM_Library:Emitter"
+			(at 183.515 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf"
+			(at 179.07 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e9439c-61a9-4fc2-9c28-845c6ea047a5")
+		)
+		(pin "2"
+			(uuid "b6b0f9ee-3295-4864-941c-d2c03c8a5705")
+		)
+		(instances
+			(project "PYORO"
+				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -26090,107 +25705,6 @@
 			(project "PYORO"
 				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TEFT4300:TEFT4300")
-		(at 156.21 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6e19285-4f3d-40b7-8add-8a7e9886e24c")
-		(property "Reference" "Q2"
-			(at 162.56 218.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TEFT4300"
-			(at 162.56 220.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MM_Library:Emitter"
-			(at 156.21 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/81549/teft4300.pdf"
-			(at 156.21 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 156.21 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.10mm"
-			(at 156.21 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay"
-			(at 156.21 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "E"
-			(uuid "17b0b643-a229-4170-aadf-838a1feb4164")
-		)
-		(pin "C"
-			(uuid "491be5c4-6dc1-46e1-909f-e5d3dc945751")
-		)
-		(instances
-			(project "PYORO"
-				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -26843,107 +26357,6 @@
 			(project "PYORO"
 				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SFH_4545:SFH_4545")
-		(at 208.28 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8140120-e6ac-4f61-8ea9-d10d839d0ac9")
-		(property "Reference" "D8"
-			(at 213.36 152.4386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SFH_4545"
-			(at 213.36 154.9786 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MM_Library:Emitter"
-			(at 208.28 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/3456970c8eccd2cb/original/SFH-4545.pdf"
-			(at 208.28 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.5"
-			(at 208.28 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "OSRAM"
-			(at 208.28 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 208.28 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "e5c852ab-ce5b-4d2c-8bdd-6c9b879bcafd")
-		)
-		(pin "C"
-			(uuid "d7a44522-895b-4674-8452-88e7f57ef884")
-		)
-		(instances
-			(project "PYORO"
-				(path "/33536192-ffca-4378-b65d-e9890d30a82c"
-					(reference "D8")
 					(unit 1)
 				)
 			)
