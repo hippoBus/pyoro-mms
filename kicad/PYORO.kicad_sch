@@ -13364,7 +13364,7 @@
 	)
 	(text "Wall Direction"
 		(exclude_from_sim no)
-		(at 153.924 113.792 0)
+		(at 159.766 113.792 0)
 		(effects
 			(font
 				(size 1.27 1.27)
